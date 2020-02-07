@@ -1,0 +1,44 @@
+body{
+	background: blue;
+}
+.card{
+	position: relative;
+	background: #fff;
+	width: 400px;
+	height: 500px;
+	margin: 0 auto;
+}
+.card .SliderContent{
+	width: 400px;
+	padding: 30px;
+	box-sizing: border-box;
+	text-align: center;
+}
+.card .SliderText{
+	position: relative;
+	width: 100%;
+	height: 200px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #000;
+}
+.card .SliderContent a{
+	display: inline-block;
+	margin: 10px 0 0;
+	padding: 10px 20px;
+	text-decoration: none;
+	border: 2px solid #000;
+	color: #262626;
+	font-weight: 600;
+}
+.card .SliderText h3{
+	color: #fff;
+	font-size: 3em;
+}
+.swiper-slide{
+	width: 200px;
+	height: 200px;
+	background-size: cover;
+	background-position: center;
+}

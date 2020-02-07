@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SLider</title>
+</head>
+<link rel="stylesheet" type="text/css" href="style2.css">
+<link rel="stylesheet" type="text/css" href="swiper.min.css">
+<body>
+	<div class="swiper-container">
+		<div class="swiper-wrapper">
+			<div class="swiper-slide">
+				<div class="card">
+					<div class="SliderText">
+						<h3>Slide 1</h3>
+					</div>
+					<div class="SliderContent">
+						<p>Vamsi Krishna</p>
+						<a href="#">Read more</a>
+					</div>
+				</div>
+			</div>
+			<div class="swiper-slide">
+				<div class="card">
+					<div class="SliderText">
+						<h3>Slide 2</h3>
+					</div>
+					<div class="SliderContent">
+						<p>Lekkala</p>
+						<a href="#">Read more</a>
+					</div>
+				</div>
+			</div>
+			<div class="swiper-slide">
+				<div class="card">
+					<div class="SliderText">
+						<h3>Slide 3</h3>
+					</div>
+					<div class="SliderContent">
+						<p>Something</p>
+						<a href="#">Read more</a>
+					</div>
+				</div>
+			</div>
+			<div class="swiper-slide">
+				<div class="card">
+					<div class="SliderText">
+						<h3>Slide 3</h3>
+					</div>
+					<div class="SliderContent">
+						<p>Something</p>
+						<a href="#">Read more</a>
+					</div>
+				</div>
+			</div>
+			<div class="swiper-slide">
+				<div class="card">
+					<div class="SliderText">
+						<h3>Slide 3</h3>
+					</div>
+					<div class="SliderContent">
+						<p>Something</p>
+						<a href="#">Read more</a>
+					</div>
+				</div>
+			</div>
+			<div class="swiper-slide">
+				<div class="card">
+					<div class="SliderText">
+						<h3>Slide 3</h3>
+					</div>
+					<div class="SliderContent">
+						<p>Something</p>
+						<a href="#">Read more</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	
+	<script src="swiper.min.js"></script>
+	<script>
+	    var swiper = new Swiper('.swiper-container', {
+	      effect: 'coverflow',
+	      grabCursor: true,
+	      centeredSlides: true,
+	      slidesPerView: 'auto',
+	      coverflowEffect: {
+	        rotate: 50,
+	        stretch: 0,
+	        depth: 100,
+	        modifier: 1,
+	        slideShadows : true,
+	      },
+	      pagination: {
+	        el: '.swiper-pagination',
+	      },
+	    });
+  	</script>
+</body>
+</html>
